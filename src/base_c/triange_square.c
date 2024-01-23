@@ -15,10 +15,10 @@ int main() {
     printf("Input coordinates of vertices xC and yC: \n");
     scanf("%d%d", &xC, &yC);
 
-    //Высчитываем площадь треугольника
+    // Высчитываем площадь треугольника
     S = fabs((xA - xC) * (yB - yC) * (xB - xC) * (yA - yC)) / 2;
 
-    //Вывод результата
+    // Вывод результата
     printf("\n Triangle square = %g\n", S);
 
     return 0;
